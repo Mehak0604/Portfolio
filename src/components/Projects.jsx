@@ -23,7 +23,7 @@ export default function Projects() {
         content-focused layout.
       </p>
       <p><strong>Tech:</strong> HTML5,CSS3,JavaScript,React</p>
-      <a href="https://mehak0604.github.io/portfolio/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+      <a href="https://mehak0604.github.io/Portfolio/" target="_blank" rel="noopener noreferrer">Live Demo</a>
     </div>
 
     <div className="project-card">
