@@ -1,0 +1,100 @@
+/* Skills.css */
+.skills {
+  padding: 80px 20px;
+  background: #181818;
+  color: #fff;
+}
+
+.skills h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2rem;
+  letter-spacing: 0.5px;
+}
+.skills-section {
+  padding: 80px 50px;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+.skills-section h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 20px 40px;
+  margin: 10px;
+  border-radius: 10px;
+  font-weight: 500;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s;
+}
+
+.skill:hover {
+  transform: translateY(-5px);
+  border-color: #ff9800;
+}
+
+.skills ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.skills li {
+  background: #1f1f1f;
+  padding: 16px;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.skills li:hover {
+  transform: translateY(-5px);
+  border-color: #00adb5;
+}
+
+.skills li::before {
+  content: "✓";
+  display: block;
+  font-size: 1.2rem;
+  color: #00adb5;
+  margin-bottom: 6px;
+}
+
+/* Optional: Skill bars */
+.skill-bar {
+  height: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: 8px;
+}
+
+.skill-level {
+  height: 8px;
+  background: #00adb5;
+  border-radius: 4px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 480px) {
+  .skills h2 {
+    font-size: 1.6rem;
+  }
+}

@@ -1,0 +1,36 @@
+/* Navbar styles */
+header {
+  width: 100%;
+  background-color: #111; /* black background */
+  padding: 20px 50px;
+  box-sizing: border-box;
+}
+
+/* Make sure nav content doesn't get squeezed into a small container */
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Navigation links styling */
+header nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+header nav ul li a:hover {
+  color: #ff9800; /* highlight color */
+}

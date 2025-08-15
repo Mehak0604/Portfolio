@@ -1,0 +1,33 @@
+/* Footer.css */
+footer {
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-size: 0.9rem;
+  border-top: 1px solid #222;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.95rem;
+  letter-spacing: 0.3px;
+  opacity: 0.95;
+}
+
+/* Optional: make links inside the footer look nice */
+footer a {
+  color: inherit;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive tweak */
+@media (max-width: 480px) {
+  footer p {
+    font-size: 0.9rem;
+  }
+}
